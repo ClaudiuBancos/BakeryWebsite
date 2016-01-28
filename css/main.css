@@ -120,14 +120,14 @@ PAGE: GALLERY
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: #bdc3c7;
+  color: #6ab47b;
 }
 
 #gallery li p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #6ab47b;
 }
 
 
@@ -195,7 +195,7 @@ COLORS
 /* Site Body */
 body {
  background: #fff;
- color: #999;
+ color: #6ab47b;
 }
 
 /* green header */
