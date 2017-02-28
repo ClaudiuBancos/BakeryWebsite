@@ -97,6 +97,11 @@ footer {
 	justify-content: space-between;
 }
 
+.cake {
+	font-size: 14pt;
+	margin-bottom: 20px;
+}
+
 /*About Page*/
 
 #about {
