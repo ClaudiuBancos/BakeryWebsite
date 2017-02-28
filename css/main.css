@@ -39,6 +39,10 @@ p {
 	color: hsl(330, 95%, 10%);
 }
 
+img {
+	max-width: 100%;
+}
+
 /*Header*/
 
 header {
