@@ -13,10 +13,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
+	font-size: 20pt;
 }
 
 a {
 	text-decoration: none;
+	color: hsl(330, 80%, 55%)
 }
 
 a:hover {
@@ -28,9 +30,13 @@ main {
 	flex: 1;
 }
 
+h1 {
+	font-size: 1.5em;
+	margin: 0px;
+}
+
 p {
 	color: hsl(330, 95%, 10%);
-	font-size: 20pt;
 }
 
 /*Header*/
@@ -45,10 +51,6 @@ header {
 #logo {
 	font-size: 36pt;
 	padding: 10px;
-}
-
-#logo a {
-	color: hsl(330, 80%, 55%);
 }
 
 nav {
@@ -99,4 +101,11 @@ footer {
 
 #about_text {
 	max-width: 480px;
+}
+
+/*Contact Page*/
+
+#contact_text {
+	max-width: 240px;
+	margin: 0 auto;
 }
