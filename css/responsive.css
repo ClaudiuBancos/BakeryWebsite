@@ -1,0 +1,12 @@
+@media screen and (min-width: 720px) {
+	header {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 30px 5%;
+		align-items: baseline;
+	}
+
+	nav {
+		width: 348px;
+	}
+}
