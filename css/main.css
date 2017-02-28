@@ -17,9 +17,8 @@ main {
 }
 
 p {
-	/*font-family: 'Open Sans';*/
 	color: hsl(330, 95%, 10%);
-	font-family: 'Sue Ellen Francisco';
+	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
 	font-size: 20pt;
 }
 
@@ -33,8 +32,7 @@ header {
 }
 
 #logo {
-	/*font-family: 'Courgette';*/
-	font-family: 'Sue Ellen Francisco';
+	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
 	font-weight: normal;
 	font-size: 36pt;
 	padding: 10px;
@@ -52,8 +50,7 @@ nav {
 
 nav a {
 	color: hsl(330, 90%, 40%);
-	/*font-family: 'Amatic SC';*/
-	font-family: 'Sue Ellen Francisco';
+	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
 	font-size: 18pt;
 	letter-spacing: .15em;
 }
@@ -74,11 +71,11 @@ footer {
 }
 
 #copyright {
-	font-family: 'Sue Ellen Francisco';
+	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
 }
 
 #smiley {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
 	margin-bottom: 6px;
 }
 
