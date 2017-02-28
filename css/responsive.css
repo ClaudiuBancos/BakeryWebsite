@@ -10,7 +10,7 @@
 	}
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 735px) {
 	header {
 		flex-direction: row;
 		justify-content: space-between;
