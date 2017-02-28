@@ -5,3 +5,64 @@
 a {
 	text-decoration: none;
 }
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h1 {
+	color: hsl(330, 80%, 55%);
+	/*font-family: 'Courgette';*/
+	font-family: 'Sue Ellen Francisco';
+	font-weight: normal;
+	font-size: 36pt;
+	margin: 12px 0px;
+}
+
+nav a {
+	color: hsl(330, 90%, 40%);
+	/*font-family: 'Amatic SC';*/
+	font-family: 'Sue Ellen Francisco';
+	font-size: 18pt;
+	margin: 15px;
+	letter-spacing: .15em;
+}
+
+main {
+	margin: 0 10%;
+}
+
+.family_photo {
+	max-width: 100%;
+	border-radius: 50px;
+}
+
+p {
+	/*font-family: 'Open Sans';*/
+	color: hsl(330, 95%, 10%);
+	font-family: 'Sue Ellen Francisco';
+	font-size: 20pt;
+}
+
+footer {
+	background-color: hsl(330, 60%, 50%);
+	color: white;
+	padding: 40px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16pt;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+#copyright {
+	font-family: 'Sue Ellen Francisco';
+}
+
+#smiley {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom: 6px;
+}
