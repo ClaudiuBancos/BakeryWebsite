@@ -89,6 +89,14 @@ footer {
 	margin-bottom: 6px;
 }
 
+/*Home Page*/
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 /*About Page*/
 
 #about {

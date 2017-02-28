@@ -8,6 +8,10 @@
 	#contact_text {
 		max-width: 480px;
 	}
+
+	.cake {
+		width: 46%;
+	}
 }
 
 @media screen and (min-width: 735px) {
@@ -20,5 +24,9 @@
 
 	nav {
 		width: 348px;
+	}
+
+	.cake {
+		width: 30%;
 	}
 }
