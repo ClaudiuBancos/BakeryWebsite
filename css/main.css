@@ -12,8 +12,8 @@ body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	font-family: 'Sue Ellen Francisco', 'Helvetica Neue', sans-serif;
-	font-size: 20pt;
+	font-family: 'Kalam', sans-serif;
+	font-size: 15pt;
 }
 
 a {
@@ -26,7 +26,7 @@ a:hover {
 }
 
 main {
-	margin: 0 10%;
+	margin: 0 5%;
 	flex: 1;
 }
 
@@ -47,26 +47,29 @@ img {
 
 header {
 	text-align: center;
-	padding: 10px 0;
+	padding: 20px 0;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 #logo {
-	font-size: 36pt;
-	padding: 10px;
+	font-family: 'Kalam', sans-serif;
+	font-size: 24pt;
+	margin-bottom: 10px;
 }
 
 nav {
+	font-family: 'Source Sans Pro', sans-serif;
 	display: flex;
-	justify-content: space-around;
-	padding: 0 10px;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 300px;
 }
 
 nav a {
-	color: hsl(330, 90%, 40%);
-	font-size: 18pt;
-	letter-spacing: .15em;
+	color: hsl(330, 60%, 50%);
+	letter-spacing: .1em;
 }
 
 /*Footer*/
@@ -74,19 +77,17 @@ nav a {
 footer {
 	background-color: hsl(330, 60%, 50%);
 	color: white;
-	padding: 20px 10%;
+	padding: 20px 5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 16pt;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
 }
 
 #smiley {
-	font-family: 'Helvetica Neue', Arial, sans-serif;
-	margin-bottom: 6px;
+	margin: 6px;
 }
 
 /*Home Page*/
@@ -98,7 +99,7 @@ footer {
 }
 
 .cake {
-	font-size: 14pt;
+	font-size: 10pt;
 	margin-bottom: 20px;
 }
 
@@ -112,17 +113,17 @@ footer {
 
 #about_photo {
 	width: 100%;
-	max-width: 480px;
+	max-width: 430px;
 	border-radius: 10px;
 }
 
 #about_text {
-	max-width: 480px;
+	max-width: 430px;
 }
 
 /*Contact Page*/
 
 #contact_text {
-	max-width: 240px;
+	max-width: 300px;
 	margin: 0 auto;
 }

@@ -1,12 +1,12 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 440px) {
 	#contact_text {
-		max-width: 326px;
+		max-width: 400px;
 	}
 }
 
 @media screen and (min-width: 600px) {
 	#contact_text {
-		max-width: 480px;
+		max-width: 550px;
 	}
 
 	.cake {
@@ -14,16 +14,16 @@
 	}
 }
 
-@media screen and (min-width: 735px) {
+@media screen and (min-width: 745px) {
 	header {
 		flex-direction: row;
 		justify-content: space-between;
-		padding: 30px 5%;
+		padding: 20px 5%;
 		align-items: baseline;
 	}
 
-	nav {
-		width: 348px;
+	#logo {
+		margin-bottom: 0;
 	}
 
 	.cake {
