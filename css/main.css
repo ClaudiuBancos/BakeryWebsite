@@ -111,10 +111,12 @@ footer {
 	align-items: center;
 }
 
-#about_photo {
+#about_photo, #contact_photo {
 	width: 100%;
 	max-width: 430px;
 	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
 }
 
 #about_text {
@@ -124,6 +126,5 @@ footer {
 /*Contact Page*/
 
 #contact_text {
-	max-width: 300px;
 	margin: 0 auto;
 }
