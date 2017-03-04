@@ -1,230 +1,130 @@
-/**********************************
-GENERAL
-***********************************/
+/*General*/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Kalam', sans-serif;
+	font-size: 15pt;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
+	color: hsl(350, 80%, 55%)
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding 0 5%;
+a:hover {
+	color: hsl(350, 80%, 70%);
 }
 
-img {
-  max-width: 100%;
-}
-
-h3 {
-  margin: 0 0 1em 0;
-}
-
-
-
-/**********************************
-HEADING
-***********************************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
+main {
+	margin: 0 5%;
+	flex: 1;
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px, 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
+	font-size: 1.5em;
+	margin: 0px;
 }
 
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
+p {
+	color: hsl(350, 95%, 10%);
 }
 
+img {
+	max-width: 100%;
+}
 
+/*Header*/
 
-/**********************************
-NAVIGATION
-***********************************/
+header {
+	text-align: center;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo {
+	font-family: 'Kalam', sans-serif;
+	font-size: 24pt;
+	margin-bottom: 10px;
+}
 
 nav {
-  text-align: center;
-  padding: 10px, 0;
-  margin: 20px 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 300px;
 }
 
 nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+	color: hsl(350, 60%, 50%);
+	letter-spacing: .1em;
 }
 
-
-
-/**********************************
-FOOTER
-***********************************/
+/*Footer*/
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
+	background-color: hsl(350, 60%, 50%);
+	color: white;
+	padding: 20px 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+#smiley {
+	margin: 6px;
 }
 
-
-
-/**********************************
-PAGE: GALLERY
-***********************************/
+/*Home Page*/
 
 #gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #6ab47b;
+.cake {
+	font-size: 10pt;
+	margin-bottom: 20px;
 }
 
-#gallery li p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #6ab47b;
+/*About Page*/
+
+#about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-
-
-/**********************************
-PAGE: ABOUT
-***********************************/
-
-.profile-photo {
-  clear: both;
-  display: block;
-  max-width: 200px;
-  margin: 0 auto 30px;
-  border-radius: 10%;
+#about_photo, #contact_photo {
+	width: 100%;
+	max-width: 430px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
 }
 
-#about-text {
-  margin: 0 5%;
+#about_text {
+	max-width: 430px;
 }
 
+/*Contact Page*/
 
-
-/**********************************
-PAGE: CONTACT
-***********************************/
-
-#GeneralInfo {
-  margin: 0 2.5%;
-}
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
-}
-
-#ContactSection {
-  margin: 0 2.5%;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../images/phone.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('../images/mail.png');
-}
-
-
-
-/**********************************
-COLORS
-***********************************/
-
-/* Site Body */
-body {
- background: #fff;
- color: #6ab47b;
-}
-
-/* green header */
-header {
-  background: #6ab47b;
-  border-color: #599a68;
-}
-
-/* Logo text*/
-h1, h2 {
-  color: #fff;
-}
-
-/* Links */
-a {
-  color: #6ab47b;
-}
-
-/* nav background on mobile devices */
-nav {
-  background: #599a68;
-}
-
-/* nav links*/
-nav a, nav a:visited {
-  color: #fff;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
+#contact_text {
+	margin: 0 auto;
 }
