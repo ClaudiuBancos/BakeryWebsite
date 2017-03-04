@@ -18,11 +18,11 @@ body {
 
 a {
 	text-decoration: none;
-	color: hsl(330, 80%, 55%)
+	color: hsl(350, 80%, 55%)
 }
 
 a:hover {
-	color: hsl(330, 80%, 70%);
+	color: hsl(350, 80%, 70%);
 }
 
 main {
@@ -36,7 +36,7 @@ h1 {
 }
 
 p {
-	color: hsl(330, 95%, 10%);
+	color: hsl(350, 95%, 10%);
 }
 
 img {
@@ -68,14 +68,14 @@ nav {
 }
 
 nav a {
-	color: hsl(330, 60%, 50%);
+	color: hsl(350, 60%, 50%);
 	letter-spacing: .1em;
 }
 
 /*Footer*/
 
 footer {
-	background-color: hsl(330, 60%, 50%);
+	background-color: hsl(350, 60%, 50%);
 	color: white;
 	padding: 20px 5%;
 	display: flex;
